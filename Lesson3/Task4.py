@@ -1,5 +1,5 @@
 def my_func(x, y):
-    i = 0
+    i = 1
     numcalc = x
     while i < abs(round(y)):  # Производим умножение x на само себя y раз
         numcalc *= x
@@ -7,4 +7,5 @@ def my_func(x, y):
     return round(1 / numcalc, 5)  # преобразуем отрицательную степень в вид 1/х, округляем до 5 символа после запятой
 
 
-print(my_func(4, -4.5))  # Пример применения
+print(my_func(2, -4))  # Пример применения
+
